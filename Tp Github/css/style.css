@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background{
+    background-image: url(../images/Capture\ d’écran\ 2019-11-12\ à\ 14.02.44.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* ============================ CONTENEUR AVIS ===================== */
+
+.avis{
+    width: 100vw;
+    height: 500px;
+    background-color: rgb(145, 145,145);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* ======================= AVIS PHOTO ======================== */
+
+.avis1 img{
+    width: 43%;
+    height: 43%;
+}
+
+.avis2 img{
+    width: 43%;
+    height: 43%;
+}
+
+.avis3 img{
+    width: 43%;
+    height: 43%;
+}
+
+/*  ======================== AVIS ============================= */
+
+.avis1{
+    width: 300px;
+    height: 310px;
+    background-color: #fff;
+}
+
+
+.avis2{
+    width: 300px;
+    height: 310px;
+    background-color: #fff;
+}
+
+.avis3{
+    width: 300px;
+    height: 310px;
+    background-color: #fff;
+}
+
+/* ========================= CONTENUE AVIS ======================== */
+
+.avis h4{
+    text-align: center;
+    padding: 13px;
+}
+
+.avis p{
+    font-size: 20px;
+    text-align: center;
+    padding: 50px;
+}
