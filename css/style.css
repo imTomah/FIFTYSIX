@@ -1,4 +1,9 @@
+@import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
 *{padding: 0;margin: 0;}
+
+
+/* NavBar */
 
 .navbar{
     width: 100vw;
@@ -35,3 +40,38 @@ a {
     background-color: #000;
     color: #8C7157;
   }
+
+
+  /* Footer */
+
+.footer{
+      width: 100vw;
+      height: 150px;
+      background: #000;
+      color: #8C7157;
+
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+  }
+
+.rs{
+    display: flex;
+    font-size: 2rem;
+}
+
+i{
+    margin: 0 30px;
+}
+i:hover{
+    color: white;
+}
+
+.contact h3{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0 0 10px 0;
+}
+.contact p {
+    margin: 3px 0 0 0;
+}
